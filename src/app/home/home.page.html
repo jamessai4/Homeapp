@@ -1,0 +1,121 @@
+<ion-header [translucent]="">
+  <ion-toolbar color="dark">
+    <ion-title style="text-align: center;">Sneaker!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" >
+<!--   <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+
+<div>
+  <ion-card>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-slides pager="true" [options]="{autoplay:true}">
+            <ion-slide>
+              <ion-img src="assets/image11.jpg"></ion-img>
+            </ion-slide>
+            <ion-slide>
+              <ion-img
+                src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/2ecf8356-5995-4d40-9822-1f56231b99af/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-lv8-74DxZF.png">
+              </ion-img>
+            </ion-slide>
+            <ion-slide>
+              <ion-img
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db15fce4-6f2e-4237-89fa-cc2062e514b5/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-lv8-7HKqGG.png">
+              </ion-img>
+            </ion-slide>
+            <ion-slide>
+              <ion-img
+                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1ec29293-ed66-446b-8980-7204dc629e1c/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-60-CGxkTW.png">
+              </ion-img>
+            </ion-slide>
+          </ion-slides>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-item>
+      <!-- <ion-icon name="pin" slot="start"></ion-icon> -->
+      <ion-label>Nike</ion-label>
+      <!-- <ion-button fill="outline" slot="end">View</ion-button> -->
+    </ion-item>
+
+    <ion-card-content>
+      The icon of basketball that puts a fresh twist on what you know best.
+      Whether it's a stitched outer covering, eye-catching colors.
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col size="6">
+        <ion-button shape="round" expand="full" color="medium" (click)="Goseemore('Nike')">See More</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button shape="round" expand="full" color="dark">About</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+</div>
+
+  <div>
+  <ion-card>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-slides pager="true" [options]="{autoplay:true}">
+            <ion-slide>
+              <ion-img src="assets/image01.jpg"></ion-img>
+            </ion-slide>
+            <ion-slide>
+              <ion-img src="assets/image02.jpg"></ion-img>
+            </ion-slide>
+            <ion-slide>
+              <ion-img
+                src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/189b449050ef49b1aa68a8ba010163e6_9366/NMD_R1_Shoes_White_D96635_01_standard.jpg">
+              </ion-img>
+            </ion-slide>
+            <ion-slide>
+              <ion-img
+                src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/879bbd4ac95c43279cc8acd300f5ddb1_9366/NMD_R1_Primeknit_Shoes_Black_GZ0066_01_standard.jpg">
+              </ion-img>
+            </ion-slide>
+          </ion-slides>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-item>
+      <!-- <ion-icon name="pin" slot="start"></ion-icon> -->
+      <ion-label>Adidas</ion-label>
+      <!-- <ion-button fill="outline" slot="end">View</ion-button> -->
+    </ion-item>
+
+    <ion-card-content>
+      You're a creator. An innovator. Where do your ideas come from? Lots of ambition
+      hard work and attention to detail.
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col size="6">
+        <ion-button shape="round" expand="full" color="medium" (click)="Goseemore('Adidas')">See More</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button shape="round" expand="full" color="dark">About</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+</div>
+
+
+
+
+
+</ion-content>

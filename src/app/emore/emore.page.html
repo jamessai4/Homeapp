@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title style="text-align: center;">See more!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list class="godeiei" *ngFor="let product of products">
+    <ion-item>
+      <ion-thumbnail  slot="start">
+        <img  [src]="product.Image">
+      </ion-thumbnail>
+      <ion-label><h5>{{product.Name}}</h5>
+        <ion-text class="eie2" color="primary" *ngIf="product.Instock !== 0">
+          <h5>เหลือ {{product.Instock}} คู่</h5>
+        </ion-text>
+        <ion-text color="danger" *ngIf="product.Instock === 0">
+          <h5>สินค้าหมด</h5>
+        </ion-text>
+      </ion-label>
+      <ion-item class="eiei" slot="end" lines="none">
+        <ion-label >
+          <h3>B {{product.Price}}</h3>
+        </ion-label>
+      </ion-item>
+    </ion-item>
+  </ion-list>
+</ion-content>

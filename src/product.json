@@ -1,0 +1,84 @@
+{
+    "product":[
+        {
+            "id":1,
+            "name":"Nike Air Force 1",
+            "Series":"Pineapple Cork",
+            "image":"https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/d5398f92-3128-4416-a478-54c96847f4c5/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%A7-air-force-1-%E2%80%9Cpineapple-cork%E2%80%9D.jpg",
+            "price":4750,
+            "type":"Lifestyle"
+        },
+        {
+            "id":2,
+            "name":"Nike Air Force 1",
+            "Series":"07 LV8",
+            "image":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db15fce4-6f2e-4237-89fa-cc2062e514b5/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-lv8-7HKqGG.png",
+            "price":5600,
+            "type":"Lifestyle"
+        },
+        {
+            "id":3,
+            "name":"Nike Air Force 1",
+            "Series":"GTX",
+            "image":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2473575e-2bbd-419b-bbd3-c57b0c9c10a5/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-gtx-LSwCRW.png",
+            "price":6750,
+            "type":"Lifestyle"
+        },
+        {
+            "id":4,
+            "name":"Nike Air Force 1",
+            "Series":"React LV8",
+            "image":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/28d89063-55bb-4519-8780-09d93236c3a9/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-react-lv8-5ZWvWB.png",
+            "price":6750,
+            "type":"Lifestyle"
+        },
+        {
+            "id":5,
+            "name":"Nike Air Force 1",
+            "Series":"07 LX",
+            "image":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db15fce4-6f2e-4237-89fa-cc2062e514b5/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-lv8-7HKqGG.png",
+            "price":6750,
+            "type":"Lifestyle"
+        },
+        {
+            "id":6,
+            "name":"Nike Air Force 1",
+            "Series":"",
+            "image":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db15fce4-6f2e-4237-89fa-cc2062e514b5/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-lv8-7HKqGG.png",
+            "price":6750,
+            "type":"Lifestyle"
+        },
+        {
+            "id":3,
+            "name":"Nike Air Force 1",
+            "Series":"",
+            "image":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db15fce4-6f2e-4237-89fa-cc2062e514b5/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-lv8-7HKqGG.png",
+            "price":6750,
+            "type":"Lifestyle"
+        },
+        {
+            "id":7,
+            "name":"Nike Air Force 1",
+            "Series":"",
+            "image":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db15fce4-6f2e-4237-89fa-cc2062e514b5/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-lv8-7HKqGG.png",
+            "price":6750,
+            "type":"Lifestyle"
+        },
+        {
+            "id":8,
+            "name":"Nike Air Force 1",
+            "Series":"",
+            "image":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db15fce4-6f2e-4237-89fa-cc2062e514b5/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-lv8-7HKqGG.png",
+            "price":6750,
+            "type":"Lifestyle"
+        },
+        {
+            "id":9,
+            "name":"Nike Air Force 1",
+            "Series":"",
+            "image":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db15fce4-6f2e-4237-89fa-cc2062e514b5/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-lv8-7HKqGG.png",
+            "price":6750,
+            "type":"Lifestyle"
+        }
+    ]
+}
